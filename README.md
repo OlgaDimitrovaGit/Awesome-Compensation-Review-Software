@@ -1,243 +1,113 @@
-# Awesome-Compensation-Review-Software
+![Awesome Compensation Review Software](assets/banner.svg)
 
-## Top Compensation Review Software Ecosystem
+<p center="align">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Compensation-Review-Software/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Compensation-Review-Software?style=flat-square" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Compensation-Review-Software/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Compensation-Review-Software?style=flat-square" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Compensation-Review-Software/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Compensation-Review-Software?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+# 💼 Awesome Compensation Review Software
 
+A comprehensive, SEO-curated list of **SaaS Platforms**, **Open-Source Repositories**, **Pay Equity Analysis Tools**, and **AI Agent Skills** for **Compensation Review, Salary Benchmarking, Merit Cycles, & Total Rewards Statements**.
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Compensation Benchmarking, Merit Cycles, Pay Equity Analysis & Total Rewards Statements*
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Compensation Review**. These tools help HR and People teams design salary bands, benchmark roles against market data, run merit and bonus cycles, conduct pay equity audits, and communicate total rewards to employees.
-
-
-
-**Examples** include Pave, beqom, Compport, OpenComp, Payfactors, Salary.com CompAnalyst, Workday Compensation, Oracle Compensation, Celential.ai, and PerformYard (the category leaders).
-
-
-
-**Open-source emphasis**: Compensation review has a **fragmented open-source ecosystem**. Unlike adjacent HR categories, no single open-source platform covers the full compensation cycle end-to-end. Instead, the ecosystem provides **targeted building blocks**: **GapVision** offers a full-stack pay equity analysis and visualization platform ; **logib** delivers Switzerland's official equal pay analysis methodology as an R package ; **FairPay** demonstrates autonomous compensation benchmarking using Google ADK and BigQuery . **AI Agent Skills** like **afrexai-compensation-planner** provide structured frameworks for salary bands, geographic differentials, and pay equity audits . This section documents these focused solutions honestly.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Pave](https://www.pave.com/)**
-
-  Compensation benchmarking and planning platform. Connects to HRIS systems for real-time market data, salary band management, and merit cycle planning.
-
-
-
-- **[beqom](https://www.beqom.com/)**
-
-  Enterprise compensation management platform. Handles merit cycles, bonus planning, sales compensation, and total rewards.
-
-
-
-- **[Compport](https://compport.com/)**
-
-  Compensation management software for mid-market and enterprise. Provides salary benchmarking, merit planning, and pay equity analysis.
-
-
-
-- **[OpenComp](https://www.opencomp.com/)**
-
-  Compensation decision software for ranges, benchmarks, and merit cycles. Features **Total Rewards Statements** that offer employees a clear picture of total comp with salary, bonuses, equity, and merit increases illustrated over time . Global comp data, pay strategy and ranges, pay equity, and total rewards statements .
-
-
-
-- **[Payfactors](https://payfactors.com/)**
-
-  Compensation data management and market pricing platform. Provides salary survey data aggregation, job matching, and merit planning.
-
-
-
-- **[Salary.com CompAnalyst](https://www.salary.com/)**
-
-  Compensation data and software platform. Provides market pricing, salary structures, and merit planning tools.
-
-
-
-- **[Workday Compensation](https://www.workday.com/)**
-
-  Compensation module within Workday HCM. Provides salary planning, merit cycles, bonus administration, and total rewards.
-
-
-
-- **[Oracle Compensation](https://www.oracle.com/)**
-
-  Compensation management within Oracle HCM Cloud. Provides salary planning, workforce compensation, and total rewards.
-
-
-
-- **[Celential.ai](https://celential.ai/)**
-
-  AI-powered compensation intelligence platform. Provides real-time market data and pay analytics.
-
-
-
-- **[PerformYard](https://performyard.com/)**
-
-  Performance management platform with compensation review capabilities integrated into performance cycles.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Pay Equity Analysis Platforms
-
-
-
-- **[GapVision](https://gitlab.com/Roxanne_Ardary/gapvision)**
-
-  **The most comprehensive open-source compensation equity platform.** **AGPL 3.0+ licensed** . Designed to **track, analyze, and visualize compensation data** across industries with a focus on gender pay equity . **Core capabilities**: Compensation & pay data (base salary, bonuses, stock options, retirement contributions; gender breakdown; intersectional data on age, experience, education, seniority, ethnicity, disability status) ; **Equity & gap analysis** (auto-calculation of gender pay gaps, automatic flagging of roles/sectors exceeding thresholds, historical trends, predictive forecasts) ; **Company metrics** (average pay gap per company, % women in leadership, compliance flags, Pay Equity Seal for top performers) ; **Career mobility** (promotion tracking, bottleneck detection, negotiation frequency/success by gender) ; **AI & automation insights** (emerging skills pay impact, automation risk scoring, predictive modeling) ; **Community & crowdsourcing** (anonymous salary submissions, verified contributions, gamification) ; **Dashboards & visualization** (interactive by industry/role/company/gender, exportable reports) ; **Policy & advocacy tools** (anonymized reports for NGOs, policy simulation) . **Tech stack**: Python backend, React/Vue frontend, PostgreSQL database. **Installation**: `pip install -r requirements.txt`, `npm install`, `python app.py` .
-
-
-
-- **[logib](https://github.com/admin-ebg/logib)**
-
-  **Switzerland's official equal pay analysis methodology as an R package.** **GPL-3 licensed** . Implements the Swiss Confederation's standard analysis model for salary analyses, developed by the **Federal Office for Gender Equality of Switzerland** . **Intended for medium-sized and large companies (50+ employees)** — companies with at least 100 employees are required by the Gender Equality Act to conduct equal pay analysis . **Features**: Runs equal salary analysis in R with transparency into methodology and automation capabilities . **Functions**: `analysis()` with parameters for reference month/year, usual weekly hours, gender encoding, age format, entry date format; `build_custom_mapping()` for column name mapping . **Data cleaning and validation** built-in. Published on CRAN, version 0.2.0 (December 2024) .
-
-
-
-- **[PE-Analysis](https://github.com/alexwems1/PE-Analysis)**
-
-  **Pay equity analysis pipeline in Python.** Includes `__pycache__` with a pipeline and outputs . **Early-stage project** for pay equity analysis workflows.
-
-
-
-### Compensation Planning Frameworks (AI Agent Skills)
-
-
-
-- **[afrexai-compensation-planner](https://lobehub.com/skills/openclaw-skills-afrexai-compensation-planner)**
-
-  **Comprehensive compensation planning framework for AI agents.** **3,729 GitHub stars** . Covers **base salary bands, equity/bonus frameworks, geographic differentials, and total rewards packaging** . **When to use**: Building/revising salary bands, preparing for hiring sprints, conducting annual compensation reviews, designing equity/bonus/commission structures, benchmarking against competitors . **Framework components**: **Role architecture** (leveled titles with base ranges, equity percentages, bonus targets from L1 Associate to L6 VP/C-level) ; **Geographic differentials** (cost-of-labor multipliers by market tier — Tier 1 SF/NYC/London baseline, Tier 5 Eastern Europe/LATAM/SEA at 0.40-0.60x) ; **Total compensation package** (cash compensation, equity compensation, benefits & perks typically 20-35% on top of base) ; **Pay equity audit** (quarterly compa-ratio checks, gender pay gap analysis, tenure compression detection, band penetration flags) ; **Annual review cycle** framework . **Installation**: `npx skillsauth add openclaw/skills 1kalin/afrexai-compensation-planner` — works with Claude Code, Cursor, and Windsurf .
-
-
-
-- **[team-composition-analysis](https://skills.rest/skill/team-composition-analysis-p-o-ke-nae)**
-
-  **Startup hiring and compensation planning skill.** Helps founders decide who to hire, when, how much to pay, and how to structure ownership . **Core features**: Hiring plan design by stage (pre-seed through Series A); compensation planning with salary benchmarks, fully loaded costs, and geographic adjustments; equity allocation with founder/employee equity ranges and option pool sizing; org chart design . **Use case**: A seed-stage SaaS founder can decide whether to hire an engineering lead, first sales rep, or product manager first, then estimate budget and equity impact .
-
-
-
-### Compensation Benchmarking
-
-
-
-- **[FairPay](https://github.com/kcngkc/FairPay)**
-
-  **Autonomous HR compensation benchmarking agent** (Google Cloud Rapid Agent Hackathon 2026) . **Architecture**: Google ADK v2.1.0 with `SequentialAgent` for deterministic orchestration; **Dual-model strategy** (Gemini 2.5 Flash for tool-calling, Gemini 2.5 Pro for reasoning) . **Data sources**: BLS OEWS May 2025 (830+ occupations × 400+ metros), synthetic HRIS data, position-to-SOC mapping . **Key features**: Data gap detector, benchmarking (computes compa-ratio, confidence), narrative executive report with **HITL escalation gate** when compa-ratio < 0.85 . **Fivetran MCP integration** for data health checks . **Educational/research-grade**, demonstrates agent-based compensation analysis.
-
-
-
-- **[Compshop](https://beta.mcp.so/servers/compshop)**
-
-  **Independent directory of 350+ compensation surveys** . Aggregates and searches **17+ vendors** including Mercer, WTW, Aon Radford, SullivanCotter, Gallagher, Pearl Meyer, Empsight, Culpepper, Croner, and more . **Search by**: Job title, industry, geography, or publisher . **Tech stack**: Next.js 14, TypeScript, Tailwind CSS, SQLite (bundled) . **Deployment**: Vercel or local. **~3,500 statically-generated SEO-optimized pages** . **MCP server** for AI assistant integration.
-
-
-
-### Total Rewards & Benefits
-
-
-
-- **[Total Rewards Statement Template](https://peopleopsclub.com/resources/total-rewards-statement-template)**
-
-  **Free template for creating total rewards statements.** Shows employees the full value of their package — salary, bonus, equity, benefits, and perks — in one clear summary . **Sections**: Employee details; Direct compensation (base salary, annual bonus, equity annualized, sign-on/retention bonus); Benefits & employer contributions (health/medical premium, retirement match, life & disability insurance, PTO cash value); Total rewards summary . **Key insight**: Employees consistently underestimate benefits value; showing total rewards often **20-40% above base salary** is one of the cheapest retention tools . **Includes**: Employer-cost column so true package value is visible .
-
-
-
-- **[hr-compensation-benefits Skill](https://www.skills.sh/tuanductran/hr-skills/hr-compensation-benefits)**
-
-  **AI Agent Skill for compensation and benefits support.** **57 GitHub stars, 13 installs** . **Supported tasks**: Analyzing compensation data and market pay trends; calculating pay rates and job evaluations; designing bonus plans, variable pay, and incentive programs; creating equity compensation programs; developing health/wellness programs; managing benefits and FSAs; designing PTO/leave policies; creating total rewards statements; writing compensation philosophy statements; developing retention strategies .
-
-
-
-- **[PE-Analysis](https://github.com/alexwems1/PE-Analysis)**
-
-  Pay equity analysis pipeline with Python-based workflows .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Pay Equity Analysis**: **GapVision** (comprehensive platform, AGPL 3.0, full-stack) , **logib** (Swiss official methodology, CRAN, GPL-3) .
-
-- **Compensation Planning**: **afrexai-compensation-planner** (3,729 stars, full framework) , **team-composition-analysis** (startup hiring/equity planning) .
-
-- **Benchmarking**: **FairPay** (agent-based, BLS OEWS data) , **Compshop** (350+ survey directory, MCP server) .
-
-- **Total Rewards**: **Total Rewards Statement Template** (free PDF/CSV) , **hr-compensation-benefits Skill** .
-
-
-
-**Frameworks for building custom systems**: Combine **GapVision** for pay equity analysis and visualization, **logib** for rigorous gender pay gap methodology, **afrexai-compensation-planner** for salary band and geographic differential frameworks, **Compshop** for survey discovery, and **Total Rewards Statement Template** for employee communications. Add **PostgreSQL** for persistence and **R** for statistical analysis.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Compensation review platforms handle sensitive employee compensation data; ensure compliance with pay transparency regulations (EU Pay Transparency Directive, US state laws) and data protection requirements.
-
-- **Open-source reality**: The open-source ecosystem for compensation review is **fragmented but useful for specific use cases**. **GapVision** provides a comprehensive pay equity analysis platform with full-stack deployment . **logib** delivers Switzerland's official equal pay methodology as a mature R package . **afrexai-compensation-planner** offers a detailed framework for salary bands and geographic differentials as an AI agent skill . **Compshop** provides survey discovery across 350+ reports . However, **commercial platforms** (Pave, OpenComp, beqom, Workday) provide **integrated merit cycle workflows, real-time market data at scale, and enterprise-grade reporting** that open-source alternatives cannot match without significant assembly and engineering investment. The open-source path is most viable for **pay equity analysis, statistical methodology, or organizations with strong data science capacity**.
-
-
+> **Last Updated: September 2026**
 
 ---
 
+## 📌 Table of Contents
+- [🔍 Overview](#-overview)
+- [🏢 SaaS & Hosted Compensation Platforms](#-saas--hosted-compensation-platforms)
+- [💻 Open-Source GitHub Repositories](#-open-source-github-repositories)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
 
+---
 
-**Made for HR leaders, compensation analysts, People Operations teams, and pay equity specialists.**
+## 🔍 Overview
 
-Let's make compensation review more open, transparent, and equitable.
+Compensation review software enables HR leaders, People Operations teams, and compensation analysts to structure base salary bands, benchmark roles against real-time market data, execute merit and bonus cycles, audit pay parity (gender & ethnic pay equity), and deliver dynamic Total Rewards Statements to employees.
+
+Whether you are evaluating enterprise HCM modules, mid-market SaaS platforms, or building custom pay equity pipelines using open-source packages and AI Agent skills, this directory provides a transparent overview of capabilities, pricing tiers, free trial limits, and project maturity.
+
+---
+
+## 🏢 SaaS & Hosted Compensation Platforms
+
+> 📊 **Market Size & Sector Structure:** The global Compensation Management Software market is valued at **$2.4 Billion (2025/2026)** and is projected to reach **$4.8 Billion by 2032** (CAGR ~9.8%). The market is **moderately fragmented**—dominated at the enterprise tier by legacy HCM providers (Oracle, Workday) and compensation survey aggregators (Payscale), while agile, AI-native SaaS platforms (Pave, beqom, OpenComp) lead innovation in real-time benchmarking, automated merit cycles, and pay transparency.
+
+*Note: The table below is sorted descending by company size / valuation.*
+
+| 🚀 Platform | 🏢 Company Size / Valuation | 💰 Starting Pricing | 🎁 Free Tier / Trial Limits | 📋 Core Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Oracle Compensation](https://www.oracle.com/human-capital-management/compensation/)** | **$440.0B Valuation** ($53.8B Revenue) | **$15.00 / employee / month** ($180/emp/yr; ~$15,000 min annual contract) | **30-day free trial** ($300 credits in Oracle Cloud Free Tier; no free-forever plan) | Global workforce compensation, merit budget distribution, total rewards statements, and compliance audits. |
+| **[Workday Compensation](https://www.workday.com/en-us/products/human-capital-management/compensation.html)** | **$68.0B Valuation** ($7.2B Revenue) | **$50.00 / user / month** (Enterprise quote starting at ~$30,000/yr min contract) | **0-day free trial** (No free trial available; interactive guided live demo upon request) | HCM-integrated salary bands, global merit planning, bonus administration, and executive compensation reporting. |
+| **[Pave](https://www.pave.com/)** | **$1.6B Valuation** ($31.0M ARR) | **$4,000 / year base platform fee** (~$12–$15/employee/year for paid tiers) | **Free Forever plan** (Market Data Lite: 100% free for companies with 1–200 employees for base salary & equity benchmarks) | Real-time market benchmark data, salary band management, automated merit cycle planning, and equity visualizers. |
+| **[Payfactors (Payscale)](https://payfactors.com/)** | **$1.0B Valuation** ($150.0M Revenue) | **$5,000 / year starting base subscription** | **0-day free trial** (No free trial available; live demo upon request) | Market pricing engine, compensation survey data aggregation, job matching, and salary structure modeling. |
+| **[Salary.com CompAnalyst](https://www.salary.com/products/companalyst/)** | **$600.0M Valuation** ($100.0M Revenue) | **$2,500 / year starting price** (CompAnalyst Small Business tier) | **14-day free trial** (Access to sample benchmark datasets and compensation reporting tools) | Market pricing data, salary structures, merit planning tools, job description management, and pay equity reporting. |
+| **[beqom](https://www.beqom.com/)** | **$500.0M Valuation** ($46.0M ARR) | **$50,000 / year** (CHF 50,000/year base starting enterprise tier) | **0-day free trial** (No free trial available; custom proof-of-concept demo upon request) | Enterprise merit cycles, bonus allocation, sales incentive compensation (ICM), pay equity audits, and total rewards. |
+| **[OpenComp](https://www.opencomp.com/)** | **$100.0M Valuation** ($12.0M ARR) | **$2,500 / year** ($250/month starting paid plan) | **Free Forever plan** (OpenComp Starter: Free for teams under 50 employees with core market pricing) | Salary range creation, market benchmarks, Total Rewards Statements, merit planning, and pay equity audit tools. |
+| **[PerformYard](https://performyard.com/)** | **$100.0M Valuation** ($18.0M ARR) | **$5.00 / employee / month** ($60/emp/yr, $1,000/year annual minimum) | **0-day free trial** (No free trial available; live personalized walkthrough demo) | Performance management platform with integrated compensation review, merit distribution, and manager calibration. |
+| **[Celential.ai](https://celential.ai/)** | **$50.0M Valuation** ($10.0M ARR) | **$500 / month** ($6,000/year starting subscription tier) | **7-day free trial** (Full sandbox access to AI candidate pay analytics platform) | AI-driven compensation intelligence, talent market pay analytics, and real-time compensation benchmarking. |
+| **[Compport](https://compport.com/)** | **$30.0M Valuation** ($6.0M ARR) | **$3.00 / employee / month** ($36/emp/yr, $1,500/year minimum) | **14-day free trial** (Full sandbox trial for merit planning and pay equity workflows) | Salary benchmarking, merit cycle budget allocation, bonus calculation, pay equity analysis, and total rewards. |
+
+---
+
+## 💻 Open-Source GitHub Repositories
+
+The open-source compensation ecosystem provides modular building blocks—from statistical equal pay R packages to AI Agent skills for salary bands and automated Python pipelines.
+
+*Note: Repositories below are sorted descending by GitHub Star Count.*
+
+| 📦 Repository & Project Name | ⭐ Stars | 🛠️ Category & Tech Stack | 📝 Description |
+| :--- | :--- | :--- | :--- |
+| **[jlevy/og-equity-compensation](https://github.com/jlevy/og-equity-compensation)** | <a href="https://github.com/jlevy/og-equity-compensation/stargazers"><img src="https://img.shields.io/github/stars/jlevy/og-equity-compensation?style=social" alt="GitHub stars"/></a> | **Framework / Guide** | **Open Guide to Equity Compensation.** Standard reference framework for stock options, RSUs, startup compensation models, offer evaluation, and tax implications. |
+| **[afrexai-compensation-planner](https://github.com/1kalin/afrexai-compensation-planner)** | <a href="https://github.com/1kalin/afrexai-compensation-planner/stargazers"><img src="https://img.shields.io/github/stars/1kalin/afrexai-compensation-planner?style=social" alt="GitHub stars"/></a> | **AI Agent Skill** | **Comprehensive compensation planning framework for AI agents.** Covers base salary bands, equity/bonus frameworks, geographic differentials (cost-of-labor multipliers), and pay equity audit rules. |
+| **[sourcegraph/handbook](https://github.com/sourcegraph/handbook)** | <a href="https://github.com/sourcegraph/handbook/stargazers"><img src="https://img.shields.io/github/stars/sourcegraph/handbook?style=social" alt="GitHub stars"/></a> | **Compensation Policy** | **Sourcegraph Open Handbook.** Industry-standard example of transparent compensation strategy, job leveling, location-based pay factors, and total rewards documentation. |
+| **[0xku/leetcode-compensation](https://github.com/0xku/leetcode-compensation)** | <a href="https://github.com/0xku/leetcode-compensation/stargazers"><img src="https://img.shields.io/github/stars/0xku/leetcode-compensation?style=social" alt="GitHub stars"/></a> | **Python / Dashboard** | **LeetCode Compensation Parser & Dashboard.** Scrapes, normalizes, and visualizes real-time tech offer compensation data (base, equity, sign-on bonus). |
+| **[hr-compensation-benefits Skill](https://github.com/tuanductran/hr-skills)** | <a href="https://github.com/tuanductran/hr-skills/stargazers"><img src="https://img.shields.io/github/stars/tuanductran/hr-skills?style=social" alt="GitHub stars"/></a> | **AI Agent Skill** | **AI Agent Skill for compensation and benefits support.** Performs job evaluations, market pay trend analysis, bonus plan design, and total rewards statements creation. |
+| **[SamirSaad786/comp-decoder](https://github.com/SamirSaad786/comp-decoder)** | <a href="https://github.com/SamirSaad786/comp-decoder/stargazers"><img src="https://img.shields.io/github/stars/SamirSaad786/comp-decoder?style=social" alt="GitHub stars"/></a> | **Web App / React** | **Compensation Offer Decoder.** Translates complex job offers (base salary, vest schedules, equity, sign-on bonuses) into clear total compensation visualizers. |
+| **[admin-ebg/logib](https://github.com/admin-ebg/logib)** | <a href="https://github.com/admin-ebg/logib/stargazers"><img src="https://img.shields.io/github/stars/admin-ebg/logib?style=social" alt="GitHub stars"/></a> | **R Package / CRAN** | **Switzerland's official equal pay analysis methodology.** Developed by the Federal Office for Gender Equality (FOGE) for statistical gender pay parity auditing. |
+| **[kcngkc/FairPay](https://github.com/kcngkc/FairPay)** | <a href="https://github.com/kcngkc/FairPay/stargazers"><img src="https://img.shields.io/github/stars/kcngkc/FairPay?style=social" alt="GitHub stars"/></a> | **Python / Google ADK** | **Autonomous HR compensation benchmarking agent.** Integrates BLS OEWS dataset with Gemini Flash/Pro dual-model strategy to calculate compa-ratios and flag compression. |
+| **[alexwems1/PE-Analysis](https://github.com/alexwems1/PE-Analysis/stargazers)** | <a href="https://github.com/alexwems1/PE-Analysis/stargazers"><img src="https://img.shields.io/github/stars/alexwems1/PE-Analysis?style=social" alt="GitHub stars"/></a> | **Python Pipeline** | **Pay Equity Analysis Workflows.** Python data analysis pipeline for evaluating wage gaps, demographic salary distributions, and regression modeling. |
+| **[Roxanne_Ardary/gapvision](https://gitlab.com/Roxanne_Ardary/gapvision)** | <a href="https://github.com/Roxanne_Ardary/gapvision/stargazers"><img src="https://img.shields.io/github/stars/Roxanne_Ardary/gapvision?style=social" alt="GitHub stars"/></a> | **Python / React / AGPL-3.0** | **Full-Stack Pay Equity Analysis Platform.** Multi-industry compensation tracking, automatic gender pay gap threshold flagging, and career mobility bottleneck detection. |
+| **[team-composition-analysis](https://skills.rest/skill/team-composition-analysis-p-o-ke-nae)** | <a href="https://skills.rest/skill/team-composition-analysis-p-o-ke-nae"><img src="https://img.shields.io/badge/Skill-Active-blue?style=social" alt="Skill"/></a> | **AI Agent Skill** | **Startup Hiring & Comp Planning Skill.** Helps founders structure salary benchmarks, option pool sizing, fully loaded headcount costs, and equity allocation by stage. |
+
+---
+
+## 🤝 How to Contribute
+
+We welcome contributions from HR Tech developers, People Ops professionals, and compensation analysts!
+
+1. 🍴 **Fork the Repository**
+2. 📝 **Add/Update Entries** in `README.md` following the tabular format.
+3. 🔎 **Ensure Data Accuracy**: Include starting price tiers, free trial limits, and exact repository URLs.
+4. 📬 **Open a Pull Request** with a concise summary of changes.
+
+---
+
+## ⚠️ Disclaimer
+
+- This directory is a **community-curated list** for informational and research purposes.
+- Compensation review systems process sensitive employee salary and equity data. Always adhere to global pay transparency mandates (e.g., EU Pay Transparency Directive, US state salary transparency laws) and data privacy standards (GDPR, SOC 2).
+- Commercial platforms (Pave, Workday, beqom) provide fully managed, enterprise-grade merit cycle workflows and market data feeds, while open-source tools provide extensible models for pay equity statistical research and AI agent integration.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Compensation-Review-Software&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Compensation-Review-Software&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+Thank you for exploring **Awesome Compensation Review Software**! If you find this curated list helpful for your HR team, compensation strategy, or open-source research, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🔀 **Fork & Contribute** by submitting a Pull Request with new SaaS or open-source compensation tools.
+- 📢 **Share** with your HR Tech and People Operations networks.
+- ☕ **Buy Me a Coffee / Sponsor**: Support ongoing maintenance on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).

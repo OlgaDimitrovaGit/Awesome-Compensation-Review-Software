@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1E1035"/>
+    </linearGradient>
+
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+
+    <linearGradient id="bar-grad-1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#60A5FA" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <linearGradient id="bar-grad-2" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <linearGradient id="bar-grad-3" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#F472B6" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtle-glow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 42px;
+      fill: url(#text-gradient);
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      fill: #9CA3AF;
+    }
+    .tag {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #38BDF8;
+      letter-spacing: 1.5px;
+    }
+    
+    /* Dynamic Keyframe Animations */
+    @keyframes barPulse1 {
+      0%, 100% { height: 110px; y: 130px; }
+      50% { height: 160px; y: 80px; }
+    }
+    @keyframes barPulse2 {
+      0%, 100% { height: 150px; y: 90px; }
+      50% { height: 90px; y: 150px; }
+    }
+    @keyframes barPulse3 {
+      0%, 100% { height: 80px; y: 160px; }
+      50% { height: 140px; y: 100px; }
+    }
+    @keyframes floatParticle {
+      0% { transform: translateY(0px) opacity(0.3); }
+      50% { transform: translateY(-15px) opacity(0.8); }
+      100% { transform: translateY(0px) opacity(0.3); }
+    }
+    @keyframes lineFlow {
+      0% { stroke-dashoffset: 400; }
+      100% { stroke-dashoffset: 0; }
+    }
+
+    .bar1 { animation: barPulse1 6s ease-in-out infinite; }
+    .bar2 { animation: barPulse2 5s ease-in-out infinite; }
+    .bar3 { animation: barPulse3 7s ease-in-out infinite; }
+    .particle { animation: floatParticle 4s ease-in-out infinite; }
+    .flow-line {
+      stroke-dasharray: 200;
+      animation: lineFlow 8s linear infinite;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="320" rx="16" fill="url(#bg-gradient)" />
+  <rect width="1196" height="316" x="2" y="2" rx="14" fill="none" stroke="#374151" stroke-width="1.5" stroke-opacity="0.5" />
+
+  <!-- Animated Background Elements (Right Side Decorative Graphics) -->
+  <g transform="translate(820, 40)" opacity="0.85">
+    <!-- Grid lines -->
+    <line x1="0" y1="200" x2="300" y2="200" stroke="#374151" stroke-width="1" stroke-dasharray="4 4"/>
+    <line x1="0" y1="140" x2="300" y2="140" stroke="#374151" stroke-width="1" stroke-dasharray="4 4"/>
+    <line x1="0" y1="80" x2="300" y2="80" stroke="#374151" stroke-width="1" stroke-dasharray="4 4"/>
+
+    <!-- Animated Data Bars -->
+    <rect class="bar1" x="30" y="110" width="38" height="110" rx="6" fill="url(#bar-grad-1)" />
+    <rect class="bar2" x="90" y="90" width="38" height="150" rx="6" fill="url(#bar-grad-2)" />
+    <rect class="bar3" x="150" y="160" width="38" height="80" rx="6" fill="url(#bar-grad-3)" />
+    <rect class="bar1" x="210" y="130" width="38" height="110" rx="6" fill="url(#bar-grad-1)" />
+
+    <!-- Trend line -->
+    <path class="flow-line" d="M 10 160 Q 70 80, 110 110 T 170 120 T 250 50" fill="none" stroke="#F472B6" stroke-width="3" filter="url(#subtle-glow)" />
+
+    <!-- Glowing points -->
+    <circle cx="250" cy="50" r="5" fill="#F472B6" filter="url(#glow)"/>
+    <circle class="particle" cx="110" cy="110" r="4" fill="#60A5FA"/>
+    <circle class="particle" cx="170" cy="120" r="4" fill="#A78BFA"/>
+  </g>
+
+  <!-- Foreground Content Area (Left Side - Fully readable & unobscured) -->
+  <g transform="translate(60, 0)">
+    <!-- Tag Pill -->
+    <g transform="translate(0, 50)">
+      <rect width="260" height="28" rx="14" fill="#1E293B" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="14" y="18" class="tag">✨ CURATED HR TECH ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="135" class="title" filter="url(#subtle-glow)">Awesome Compensation Review</text>
+    <text x="0" y="180" class="title" filter="url(#subtle-glow)">Software</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="224" class="subtitle">Top SaaS Platforms, Open-Source Repos, Pay Equity Audits &amp; AI Agent Skills</text>
+
+    <!-- Metric Badges inside Banner -->
+    <g transform="translate(0, 252)">
+      <rect width="130" height="26" rx="6" fill="#1F2937" stroke="#4B5563" stroke-width="1"/>
+      <text x="12" y="17" font-family="sans-serif" font-size="11" fill="#E5E7EB" font-weight="600">📊 SaaS Pricing</text>
+
+      <rect x="142" width="150" height="26" rx="6" fill="#1F2937" stroke="#4B5563" stroke-width="1"/>
+      <text x="154" y="17" font-family="sans-serif" font-size="11" fill="#E5E7EB" font-weight="600">⚖️ Pay Equity Tools</text>
+
+      <rect x="304" width="150" height="26" rx="6" fill="#1F2937" stroke="#4B5563" stroke-width="1"/>
+      <text x="316" y="17" font-family="sans-serif" font-size="11" fill="#E5E7EB" font-weight="600">🤖 AI Agent Skills</text>
+    </g>
+  </g>
+</svg>
